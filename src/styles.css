@@ -1,0 +1,450 @@
+/* styles.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+.App {
+  width: 100%;
+  height: 100vh;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+.intro-screen-1 {
+  position: relative;
+  background-image: url("../src/components/mainimg.jpg");
+  height: 100vh;
+  width: 100%;
+  z-index: 1;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.image-container {
+  position: relative;
+}
+
+.intro-screen-1 .image1 {
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 190px;
+  left: 530px;
+  border-radius: 5px;
+}
+
+.intro-screen-1 .image2 {
+  position: absolute;
+  top: 40px;
+  right: 200px;
+  width: 415.97px;
+  height: 219.91px;
+}
+
+.custom-image {
+  position: absolute;
+  top: 100px;
+  left: 780px /* Adjust the left position */;
+  width: 340px /* Adjust the width */;
+  height: 40px /* Adjust the height */;
+  /* Add other desired styles */
+}
+
+.intro-screen-1 .image3 {
+  position: absolute;
+  top: 450px;
+  left: 1050px; /* Adjust the right property to move image2 to the right */
+  width: 270px;
+  height: 110.51px;
+  /* Add other desired styles */
+}
+
+.nav-button {
+  cursor: pointer;
+}
+
+/*screen2 css*/
+
+.intro-screen-2 {
+  position: relative;
+  background-image: url("../src/components/mainimg.jpg");
+  height: 100vh;
+  width: 100%;
+  z-index: 1;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.image-container {
+  position: relative;
+}
+
+.intro-screen-2 .center-image {
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 190px;
+  left: 530px;
+  border-radius: 5px;
+}
+
+.other-image {
+  position: absolute;
+  top: 40px;
+  right: 190px; /* Adjust the right property to move image2 to the right */
+  width: 425.97px;
+  height: 229.91px;
+  /* Add other desired styles */
+}
+
+.other-image2 {
+  position: absolute;
+  top: 85px;
+  right: 250px; /* Adjust the right property to move image2 to the right */
+  width: 295.97px;
+  height: 80.91px;
+}
+.button-image1 {
+  position: absolute;
+  top: 450px;
+  left: 1050px; /* Adjust the right property to move image2 to the right */
+  width: 270px;
+  height: 110.51px;
+}
+
+.button-image2 {
+  /* Style for your custom image */
+  position: absolute;
+  top: 20px;
+  left: 100px;
+  width: 100px;
+  height: 100px;
+}
+.image3 {
+  position: absolute;
+  top: 590px;
+  left: 1250px;
+  width: 320px;
+  height: 110.51px;
+}
+
+.nav-button {
+  cursor: pointer;
+}
+
+/* IntroScreen3.css */
+.intro-screen-3 {
+  position: relative;
+  background-image: url("../src/components/mainimg.jpg");
+  height: 100vh;
+  width: 100%;
+  z-index: 1;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.center-image {
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 190px;
+  left: 530px;
+  border-radius: 5px;
+}
+
+.bar-image {
+  position: absolute;
+  top: 20px;
+  right: 450px;
+  width: 500.97px;
+  height: 20.91px;
+}
+
+.bar-end {
+  position: absolute;
+  top: 10px;
+  right: 435px;
+  width: 70.89px;
+  height: 70.89px;
+}
+
+.cloud-image {
+  position: absolute;
+  top: 80px;
+  right: 190px; /* Adjust the right property to move image2 to the right */
+  width: 425.97px;
+  height: 229.91px;
+}
+
+.text-image {
+  position: absolute;
+  top: 125px;
+  right: 250px; /* Adjust the right property to move image2 to the right */
+  width: 295.97px;
+  height: 80.91px;
+}
+
+.yes-button-image {
+  position: absolute;
+  top: 450px;
+  left: 1050px; /* Adjust the right property to move image2 to the right */
+  width: 270px;
+  height: 110.51px;
+  cursor: pointer;
+}
+
+.prev-button-image {
+  position: absolute;
+  top: 20px;
+  left: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+/* IntroScreen4.css */
+.intro-screen-4 {
+  position: relative;
+  background-image: url("../src/components/mainimg.jpg");
+  height: 100vh;
+  width: 100%;
+  z-index: 1;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.button-image {
+  position: absolute;
+  top: 20px;
+  left: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+.play-button-image {
+  cursor: pointer;
+  position: absolute;
+  top: 490px;
+  left: 1050px; /* Adjust the right property to move image2 to the right */
+  width: 270px;
+  height: 100.51px;
+}
+
+.bar-end-image {
+  position: absolute;
+  top: 10px;
+  right: 435px;
+  width: 70.89px;
+  height: 70.89px;
+}
+
+.rectangle {
+  align-items: center;
+  position: absolute;
+  display: flex;
+  top: -100px;
+  left: -170px;
+  width: 351px;
+  height: 438px;
+}
+
+/* width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 190px;
+  left: 530px;
+  border-radius: 5px; */
+
+.rectangle-image1 {
+  width: 230px;
+  height: 320px;
+  position: absolute;
+  top: 250px;
+  left: 310px;
+  border-radius: 5px;
+  z-index: 1;
+}
+.rectangle-image2 {
+  width: 230px;
+  height: 320px;
+  position: absolute;
+  top: 250px;
+  left: 710px;
+  border-radius: 5px;
+}
+.rectangle-image3 {
+  width: 230px;
+  height: 320px;
+  position: absolute;
+  top: 250px;
+  left: 1110px;
+  border-radius: 5px;
+}
+
+.hi-image {
+  position: absolute;
+  width: 113.12px;
+  height: 151px;
+  top: 260px;
+  left: 390px;
+  z-index: 2;
+}
+
+.hi-image-1 {
+  position: absolute;
+  width: 113.52px;
+  height: 151px;
+  top: 260px;
+  left: 340px;
+  z-index: 1;
+}
+.ht-image1 {
+  position: absolute;
+  width: 156px;
+  height: 80px;
+  top: 420px;
+  left: 345px;
+  z-index: 1;
+}
+
+.st-image1 {
+  position: absolute;
+  width: 120px;
+  height: 18px;
+  top: 510px;
+  left: 365px;
+  z-index: 1;
+}
+
+.hi-image2 {
+  position: absolute;
+  width: 113.12px;
+  height: 151px;
+  top: 260px;
+  left: 765px;
+  z-index: 2;
+}
+
+.ht-image2 {
+  position: absolute;
+  width: 156px;
+  height: 80px;
+  top: 420px;
+  left: 745px;
+  z-index: 1;
+}
+
+.st-image2 {
+  position: absolute;
+  width: 120px;
+  height: 16px;
+  top: 520px;
+  left: 765px;
+  z-index: 1;
+}
+
+.hi-image3 {
+  position: absolute;
+  width: 221px;
+  height: 265.2px;
+  top: 250px;
+  left: 1110px;
+  z-index: 1;
+}
+
+.ht-image3 {
+  position: absolute;
+  width: 210px;
+  height: 30px;
+  top: 480px;
+  left: 1121px;
+  z-index: 1;
+}
+
+.ht-image4 {
+  position: absolute;
+  width: 165px;
+  height: 25px;
+  top: 530px;
+  left: 1140px;
+  z-index: 1;
+}
+.st-image3 {
+  position: absolute;
+  width: 160px;
+  height: 21;
+  top: 440px;
+  left: 1145px;
+  z-index: 1;
+}
+
+.shadow-frame {
+  position: absolute;
+  height: 52px;
+  width: 1200px;
+  top: 540px;
+  left: 240px;
+  gap: 55px;
+}
+
+/* activityscreen */
+
+.activity-screen {
+  position: relative;
+  background-image: url("../src/components/mainimg.jpg");
+  height: 100vh;
+  width: 100%;
+  z-index: 1;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.card-container {
+  top: 250px;
+  left: -100px;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-row {
+  display: flex;
+  width: 100%;
+}
+
+.card {
+  width: 153.12px;
+  height: 170px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.pink-card {
+  top: -100px;
+  position: absolute;
+  left: 250px;
+  width: 100%;
+}
+
+.blue-card {
+  top: -100px;
+
+  position: absolute;
+  left: 850px;
+  width: 100%;
+}
